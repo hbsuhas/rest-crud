@@ -21,12 +21,14 @@ var connection  = require('express-myconnection'),
 app.use(
 
     connection(mysql,{
-        host     : 'localhost',
-        user     : 'developer',
+
+        host     : 'mysql_db',
+        user     : 'root',
         password : 'developer',
 		port : 3306, 
         database : 'nodejs',
-        debug    : true //set true if you wanna see debug logger
+        debug    : true //set true if you wanna see debug logger 
+
     },'request')
 
 );
