@@ -6,7 +6,10 @@
 -- Generation Time: Oct 07, 2014 at 11:05 AM
 -- Server version: 5.5.34
 -- PHP Version: 5.4.22
+GRANT ALL PRIVILEGES ON *.* TO 'developer'@'%' IDENTIFIED BY 'developer'
+
 CREATE DATABASE nodejs;
+
 USE nodejs;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
