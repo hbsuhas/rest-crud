@@ -21,10 +21,10 @@ var connection  = require('express-myconnection'),
 app.use(
 
     connection(mysql,{
-        host     : 'localhost',
-        user     : 'root',
-        password : '',
-        database : 'test',
+        host     : 'mysql_db',
+        user     : 'developer',
+        password : 'developer',
+        database : 'db',
         debug    : false //set true if you wanna see debug logger
     },'request')
 
