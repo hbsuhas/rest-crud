@@ -22,9 +22,9 @@ app.use(
 
     connection(mysql,{
 
-        host     : 'mysql_db',
+        host     : 'mysql',
         user     : 'root',
-        password : 'developer',
+        password : '',
 		port : 3306, 
         database : 'nodejs',
         debug    : true //set true if you wanna see debug logger 
