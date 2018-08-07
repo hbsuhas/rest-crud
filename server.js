@@ -22,10 +22,11 @@ app.use(
 
     connection(mysql,{
         host     : 'localhost',
-        user     : 'root',
-        password : '',
-        database : 'test',
-        debug    : false //set true if you wanna see debug logger
+        user     : 'developer',
+        password : 'developer',
+		port : 3306, 
+        database : 'nodejs',
+        debug    : true //set true if you wanna see debug logger
     },'request')
 
 );
