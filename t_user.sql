@@ -6,7 +6,9 @@
 -- Generation Time: Oct 07, 2014 at 11:05 AM
 -- Server version: 5.5.34
 -- PHP Version: 5.4.22
-GRANT ALL PRIVILEGES ON *.* TO 'developer'@'%' IDENTIFIED BY 'developer';
+CREATE USER 'developer'@'%' IDENTIFIED BY 'developer';
+
+GRANT ALL PRIVILEGES ON *.* TO 'developer'@'%' WITH GRANT OPTION;;
 
 CREATE DATABASE nodejs;
 
