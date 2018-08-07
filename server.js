@@ -22,7 +22,7 @@ app.use(
 
     connection(mysql,{
         host     : 'mysql_db',
-        user     : 'developer',
+        user     : 'root',
         password : 'developer',
         database : 'db',
         debug    : false //set true if you wanna see debug logger
